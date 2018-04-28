@@ -1,0 +1,141 @@
+* {
+	font-size: 13px;
+	font-family: 'Lora', serif;
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+#wapper {
+	width: 960px;
+	margin: 0px auto;
+}
+
+.float_left {
+	float: left;
+}
+
+.float_right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.head h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+
+.head p {
+	text-align: center;
+}
+
+.personal .head {
+	margin-bottom: 30px;
+}
+
+#banner {
+	padding: 20 auto;
+	height: 100px;
+	position: relative;
+}
+
+#banner .banner_text {
+	position: absolute;
+	top: 40px;
+	left: 120px
+}
+
+#banner .banner_text h3 {
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+#banner img {
+	width: 100px;
+	height: 100px;
+	margin: 20px 40px 20px 0px;
+}
+
+#menu {
+	background: #f8f8f8;
+	margin: 20px auto;
+	height: 40px;
+}
+
+#menu ul li {
+	float: left;
+	padding: 10px 20px;
+}
+
+#menu ul li a {
+	text-transform: uppercase;
+}
+
+#menu ul li:hover {
+	border-bottom: 1px solid #c0bfbf;
+}
+
+#content #left .image img {
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 180px;
+}
+
+#content #left .image {
+	margin-right: 30px;
+}
+
+#content #left {
+	width: 690px;
+}
+
+#sukien h1{
+	background: #f8f8f8;
+	padding: 20px;
+	text-transform: uppercase;
+}
+
+#content #left .sukien {
+	margin: 20px 0px;
+	border-bottom: 1px solid #c0bfbf;
+}
+
+#content #right {
+	float: left;
+	width: 260px;
+	margin: 0px 5px;
+	background: #f8f8f8;
+}
+
+#content #right li {
+	padding: 10px 20px;
+	border-bottom: 1px solid #c0bfbf;
+}
+
+#footer {
+	background: #f8f8f8;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#footer h3 {
+	padding-top: 20px;
+	display: block;
+}
